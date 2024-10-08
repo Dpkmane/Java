@@ -1,4 +1,4 @@
-package arraylist;
+package Collections;
 
 import java.util.*;
 import java.util.Map.Entry;
@@ -35,6 +35,9 @@ public class HashMapBasics {
 			     
 			     System.out.println("k="+next.getKey() + " v= "+ next.getValue());
 		  }
+		System.out.println("*****************");
+		
+		  map.forEach((k,v)->System.out.println("key= "+ k +" value= "+ v));
 		
 
 	}
